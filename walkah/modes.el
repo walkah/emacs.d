@@ -9,4 +9,5 @@
 
 ; others
 (load "walkah/php")
+(load "walkah/python")
 (load "walkah/javascript")
