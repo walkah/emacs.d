@@ -2,6 +2,10 @@
 (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
 (add-to-list 'interpreter-mode-alist '("python" . python-mode))
 
+(require 'django-html-mode)
+(require 'django-mode)
+(yas/load-directory "~/.emacs.d/vendor/django-mode/snippets")
+
 (defun walkah/python-mode-init ()
   (set-variable 'py-indent-offset 2)
   (set-variable 'py-smart-indentation t)
