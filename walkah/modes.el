@@ -2,6 +2,11 @@
 (require 'textmate)
 (textmate-mode)
 
+; yasnippet
+(require 'yasnippet) 
+(yas/initialize)
+(yas/load-directory "~/.emacs.d/vendor/yasnippet/snippets")
+
 ; magit
 (autoload 'magit-status "magit" nil t)
 
