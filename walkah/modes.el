@@ -15,7 +15,10 @@
 (autoload 'magit-status "magit" nil t)
 
 ; jade templates
-(autoload 'jade-mode "jade" nil t)
+(require 'sws-mode)
+(require 'jade-mode)    
+(add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
+(add-to-list 'auto-mode-alist '("\\.jade$" . sws-mode))
 
 ; others
 (load "walkah/php")
