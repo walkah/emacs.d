@@ -21,11 +21,3 @@
 (setq-default indent-tabs-mode nil)
 (setq mouse-yank-at-point t)
 (set-scroll-bar-mode 'right)
-
-; theme
-(require 'color-theme)
-(require 'color-theme-tango)
-(setq color-theme-is-global t)
-
-(color-theme-tango)
-

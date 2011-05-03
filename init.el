@@ -15,4 +15,4 @@
 (load "walkah/defuns")
 (load "walkah/bindings")
 (load "walkah/modes")
-
+(load "walkah/theme")
