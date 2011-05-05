@@ -14,6 +14,9 @@
 ; magit
 (autoload 'magit-status "magit" nil t)
 
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+
 ; jade templates
 (require 'sws-mode)
 (require 'jade-mode)    
