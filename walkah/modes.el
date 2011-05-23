@@ -14,8 +14,14 @@
 ; magit
 (autoload 'magit-status "magit" nil t)
 
+; uniquify
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
+
+; ispell
+(setq ispell-program-name "aspell")
+(setq ispell-list-command "list")
+(setq ispell-extra-args '("--sug-mode=ultra"))
 
 ; jade templates
 (require 'sws-mode)
