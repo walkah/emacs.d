@@ -29,6 +29,10 @@
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . sws-mode))
 
+; flymake
+(require 'flymake)
+(delete '("\\.html?\\'" flymake-xml-init) flymake-allowed-file-name-masks)
+
 ; others
 (load "walkah/php")
 (load "walkah/python")
