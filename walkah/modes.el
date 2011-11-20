@@ -23,6 +23,8 @@
 (setq ispell-list-command "list")
 (setq ispell-extra-args '("--sug-mode=ultra"))
 
+(require 'coffee-mode)
+
 ; jade templates
 (require 'sws-mode)
 (require 'jade-mode)    
