@@ -8,3 +8,9 @@
 (custom-set-faces
  '(flymake-errline ((t :underline "red")))
  '(flymake-warnline ((t :underline "green"))))
+
+; Make inconsolata work on mac
+(when (featurep 'ns-win)
+  (custom-set-faces
+   '(default ((t (:height 140 :width normal :family "Inconsolata")))))
+  )
