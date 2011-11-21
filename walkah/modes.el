@@ -35,6 +35,8 @@
 (require 'flymake)
 (delete '("\\.html?\\'" flymake-xml-init) flymake-allowed-file-name-masks)
 
+(autoload 'geben "geben" "PHP Debugger on Emacs" t)
+
 ; others
 (load "walkah/php")
 (load "walkah/python")
