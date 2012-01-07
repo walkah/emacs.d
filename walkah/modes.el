@@ -23,6 +23,11 @@
 (setq ispell-list-command "list")
 (setq ispell-extra-args '("--sug-mode=ultra"))
 
+; jekyll
+(require 'jekyll)
+(setq jekyll-post-ext ".md")
+(setq jekyll-directory (expand-file-name "~/Projects/blog/"))
+
 (require 'coffee-mode)
 
 ; jade templates
