@@ -27,6 +27,7 @@
 (require 'jekyll)
 (setq jekyll-post-ext ".md")
 (setq jekyll-directory (expand-file-name "~/Projects/blog/"))
+(setq jekyll-post-template "---\nlayout: post\ntitle: %s\n---\n\n")
 
 (require 'coffee-mode)
 
