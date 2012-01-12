@@ -28,6 +28,9 @@
 (setq jekyll-post-ext ".md")
 (setq jekyll-directory (expand-file-name "~/Projects/blog/"))
 (setq jekyll-post-template "---\nlayout: post\ntitle: %s\n---\n\n")
+(global-set-key (kbd "C-c b d") (lambda () 
+                                  (interactive)
+                                  (find-file (concat jekyll-directory jekyll-drafts-dir))))
 
 (require 'coffee-mode)
 
