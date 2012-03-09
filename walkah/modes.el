@@ -38,6 +38,8 @@
 
 (require 'coffee-mode)
 
+(require 'less-css-mode)
+
 ; jade templates
 (require 'sws-mode)
 (require 'jade-mode)    
