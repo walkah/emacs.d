@@ -25,3 +25,6 @@
 [submodule "vendor/less-css"]
 	path = vendor/less-css
 	url = https://github.com/purcell/less-css-mode.git
+[submodule "vendor/haml-mode"]
+	path = vendor/haml-mode
+	url = https://github.com/nex3/haml-mode.git

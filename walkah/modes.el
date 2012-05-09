@@ -37,7 +37,7 @@
                                   (find-file (concat jekyll-directory jekyll-drafts-dir))))
 
 (require 'coffee-mode)
-
+(require 'haml-mode)
 (require 'less-css-mode)
 
 ; jade templates
