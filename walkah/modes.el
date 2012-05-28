@@ -27,6 +27,11 @@
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
+; ruby
+(setq auto-mode-alist (cons '("Rakefile" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("Capfile" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("Gemfile" . ruby-mode) auto-mode-alist))
+
 ; jekyll
 (require 'jekyll)
 (setq jekyll-post-ext ".md")
