@@ -3,4 +3,5 @@ auto-save-list
 ac-comphist.dat
 session.*
 custom.el
-/geben
+geben
+elpa
