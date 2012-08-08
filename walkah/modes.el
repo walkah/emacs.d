@@ -46,6 +46,8 @@
 
 (require 'coffee-mode)
 (require 'haml-mode)
+(require 'sass-mode)
+(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
 (require 'less-css-mode)
 
 ; jade templates
