@@ -1,9 +1,6 @@
 [submodule "vendor/textmate"]
 	path = vendor/textmate
 	url = https://github.com/defunkt/textmate.el.git
-[submodule "vendor/django-mode"]
-	path = vendor/django-mode
-	url = https://github.com/myfreeweb/django-mode.git
 [submodule "vendor/jade-mode"]
 	path = vendor/jade-mode
 	url = https://github.com/brianc/jade-mode.git
