@@ -27,14 +27,6 @@
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
-; ruby
-(require 'rvm)
-(rvm-use-default)
-(setq auto-mode-alist (cons '("Rakefile" . ruby-mode) auto-mode-alist))
-(setq auto-mode-alist (cons '("Capfile" . ruby-mode) auto-mode-alist))
-(setq auto-mode-alist (cons '("Gemfile" . ruby-mode) auto-mode-alist))
-(require 'rinari)
-
 ; jekyll
 (require 'jekyll)
 (setq jekyll-post-ext ".md")
@@ -63,6 +55,7 @@
 (autoload 'geben "geben" "PHP Debugger on Emacs" t)
 
 ; others
+(load "walkah/javascript")
 (load "walkah/php")
 (load "walkah/python")
-(load "walkah/javascript")
+(load "walkah/ruby")
