@@ -1,20 +1,16 @@
 ; make sure emacs on OS X gets my full shell $PATH
-(require 'exec-path-from-shell)
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
 ; textmate
-(require 'textmate)
 (textmate-mode)
 
 ; markdown
-(autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
 ; yasnippet
-(require 'yasnippet) 
-(yas/initialize)
-(yas/load-directory "~/.emacs.d/vendor/yasnippet/snippets")
+(require 'yasnippet)
+(yas/global-mode 1)
 
 ; magit
 (autoload 'magit-status "magit" nil t)
@@ -29,7 +25,6 @@
 (setq ispell-extra-args '("--sug-mode=ultra"))
 
 ; yaml
-(require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 ; jekyll
@@ -41,21 +36,15 @@
                                   (interactive)
                                   (find-file (concat jekyll-directory jekyll-drafts-dir))))
 
-(require 'coffee-mode)
-(require 'haml-mode)
-(require 'sass-mode)
 (add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
-(require 'less-css-mode)
 
 ; jade templates
-(require 'sws-mode)
-(require 'jade-mode)    
 (add-to-list 'auto-mode-alist '("\\.styl$" . stylus-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
 ; flymake
 (require 'flymake)
-(delete '("\\.html?\\'" flymake-xml-init) flymake-allowed-file-name-masks)
+(setq flymake-gui-warnings-enabled nil)
 
 (autoload 'geben "geben" "PHP Debugger on Emacs" t)
 

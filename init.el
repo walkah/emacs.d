@@ -11,6 +11,7 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (when (file-exists-p custom-file) (load custom-file))
 
+(load "walkah/packages")
 (load "walkah/global")
 (load "walkah/defuns")
 (load "walkah/bindings")
