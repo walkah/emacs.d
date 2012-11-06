@@ -1,3 +1,8 @@
+; make sure emacs on OS X gets my full shell $PATH
+(require 'exec-path-from-shell)
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 ; textmate
 (require 'textmate)
 (textmate-mode)
