@@ -27,17 +27,23 @@
 (require-package 'js2-mode)
 (require-package 'jade-mode)
 (require-package 'coffee-mode)
-
+(require-package 'flymake-coffee)
 (require-package 'less-css-mode)
 
+(require-package 'ruby-mode)
+(require-package 'flymake-ruby)
 (require-package 'rvm)
 (require-package 'rinari)
 (require-package 'yaml-mode)
 (require-package 'haml-mode)
+(require-package 'flymake-haml)
 (require-package 'sass-mode)
+(require-package 'flymake-sass)
 
 (require-package 'python-mode)
+(require-package 'flymake-python-pyflakes)
 (require-package 'pony-mode)
 
 (require-package 'php-mode)
+(require-package 'flymake-php)
 (require-package 'geben)

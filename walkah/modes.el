@@ -36,8 +36,6 @@
                                   (interactive)
                                   (find-file (concat jekyll-directory jekyll-drafts-dir))))
 
-(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
-
 ; jade templates
 (add-to-list 'auto-mode-alist '("\\.styl$" . stylus-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
