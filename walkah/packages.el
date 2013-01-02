@@ -41,6 +41,7 @@
 (require-package 'flymake-sass)
 
 (require-package 'python-mode)
+(require-package 'virtualenv)
 (require-package 'flymake-python-pyflakes)
 (require-package 'pony-mode)
 
