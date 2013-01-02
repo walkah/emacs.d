@@ -10,6 +10,7 @@
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+(setq ring-bell-function #'ignore)
 
 (setq next-line-add-newlines nil)
 
