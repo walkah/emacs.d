@@ -46,6 +46,10 @@
 
 (autoload 'geben "geben" "PHP Debugger on Emacs" t)
 
+; less-css
+(setq less-css-compile-at-save t)
+(setq less-css-output-directory "../css/")
+
 ; others
 (load "walkah/javascript")
 (load "walkah/php")
