@@ -44,6 +44,7 @@
 (require-package 'virtualenv)
 (require-package 'flymake-python-pyflakes)
 (require-package 'pony-mode)
+(require-package 'jinja2-mode)
 
 (require-package 'php-mode)
 (require-package 'flymake-php)
