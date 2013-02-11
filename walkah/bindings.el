@@ -14,3 +14,7 @@
 (global-set-key [f11] 'toggle-fullscreen)
 
 (global-set-key "\M-g" 'goto-line)
+
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier 'super)
+(setq ns-function-modifier 'hyper)
