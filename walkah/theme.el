@@ -3,7 +3,7 @@
 (require 'color-theme-solarized)
 (setq color-theme-is-global t)
 
-(color-theme-solarized-light)
+(color-theme-solarized-dark)
 
 (custom-set-faces
  '(flymake-errline ((t :underline "red")))
