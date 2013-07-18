@@ -24,6 +24,8 @@
 (require-package 'markdown-mode)
 (require-package 'yasnippet)
 
+(require-package 'puppet-mode)
+
 (require-package 'js3-mode)
 (require-package 'jade-mode)
 (require-package 'stylus-mode)

@@ -46,6 +46,10 @@
 
 (autoload 'geben "geben" "PHP Debugger on Emacs" t)
 
+; puppet mode
+(autoload 'puppet-mode "puppet-mode" "Major mode for editing puppet manifests")
+(add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
+
 ; less-css
 (setq less-css-compile-at-save t)
 (setq less-css-output-directory "../css/")
