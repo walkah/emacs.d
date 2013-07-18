@@ -24,8 +24,9 @@
 (require-package 'markdown-mode)
 (require-package 'yasnippet)
 
-(require-package 'js2-mode)
+(require-package 'js3-mode)
 (require-package 'jade-mode)
+(require-package 'stylus-mode)
 (require-package 'coffee-mode)
 (require-package 'flymake-coffee)
 (require-package 'less-css-mode)
