@@ -33,7 +33,7 @@
 
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 ; drupal files
-(add-to-list 'auto-mode-alist '("\\.\\(module\\|test\\|install\\|theme\\|engine\\|schema\\|profile\\)$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.\\(inc\\|module\\|test\\|install\\|theme\\|engine\\|schema\\|profile\\)$" . php-mode))
 
 (defun walkah/php-mode-init ()
    "Set some buffer-local variables."
