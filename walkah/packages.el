@@ -52,3 +52,5 @@
 (require-package 'php-mode)
 (require-package 'flymake-php)
 (require-package 'geben)
+
+(require-package 'feature-mode)
