@@ -35,7 +35,7 @@
 
 (require-package 'ruby-mode)
 (require-package 'flymake-ruby)
-(require-package 'rvm)
+(require-package 'rbenv)
 (require-package 'rinari)
 (require-package 'yaml-mode)
 (require-package 'haml-mode)
