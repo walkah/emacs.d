@@ -13,6 +13,7 @@
 (yas/global-mode 1)
 
 ; magit
+(setq magit-diff-use-overlays nil)
 (autoload 'magit-status "magit" nil t)
 
 ; uniquify
