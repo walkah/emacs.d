@@ -3,6 +3,8 @@
 (add-to-list 'auto-mode-alist '("\\.json$" . js3-mode))
 (setq js2-basic-offset 2)
 
+(add-to-list 'ac-modes 'js3-mode)
+
 (add-hook 'coffee-mode-hook 'flymake-coffee-load)
 
 (custom-set-variables
