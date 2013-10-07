@@ -16,6 +16,7 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 
 (package-initialize)
+(require-package 'auto-complete)
 (require-package 'exec-path-from-shell)
 (require-package 'magit)
 (require-package 'color-theme-solarized)

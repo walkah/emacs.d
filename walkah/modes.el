@@ -5,6 +5,13 @@
 ; textmate
 (textmate-mode)
 
+; auto-complete
+(require 'auto-complete)
+;(add-to-list 'ac-dictionary-directories (concat ac-directory "ac-dict"))
+(require 'auto-complete-config)
+(ac-config-default)
+(global-auto-complete-mode 1)
+
 ; markdown
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
