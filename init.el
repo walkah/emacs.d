@@ -11,7 +11,10 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (when (file-exists-p custom-file) (load custom-file))
 
-(load "walkah/packages")
+; cask
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+
 (load "walkah/global")
 (load "walkah/defuns")
 (load "walkah/bindings")
