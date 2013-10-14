@@ -21,7 +21,7 @@
 
 (depends-on "ruby-mode")
 (depends-on "flymake-ruby")
-(depends-on "rbenv")
+(depends-on "rvm")
 (depends-on "rinari")
 (depends-on "yaml-mode")
 (depends-on "haml-mode")

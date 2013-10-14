@@ -1,6 +1,5 @@
-(setq rbenv-modeline-function 'rbenv--modeline-plain)
-(require 'rbenv)
-(global-rbenv-mode)
+(require 'rvm)
+(rvm-use-default) 
 
 (add-to-list 'auto-mode-alist '("Rakefile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Capfile" . ruby-mode))
