@@ -7,9 +7,15 @@
 
 (add-hook 'coffee-mode-hook 'flymake-coffee-load)
 
+
 (custom-set-variables
- '(js3-lazy-commas t)
+ '(js3-auto-indent-p t)
+ '(js3-curly-indent-offset 0)
+ '(js3-enter-indents-newline t)
  '(js3-expr-indent-offset 2)
+ '(js3-indent-on-enter-key t)
+ '(js3-lazy-commas t)
+ '(js3-lazy-dots t)
+ '(js3-lazy-operators t)
  '(js3-paren-indent-offset 2)
- '(js3-square-indent-offset 2)
- '(js3-curly-indent-offset 2))
+ '(js3-square-indent-offset 4))
