@@ -9,9 +9,9 @@
 
 (require 'rinari)
 
-(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
-
 (add-hook 'haml-mode-hook 'flymake-haml-load)
 (add-hook 'sass-mode-hook 'flymake-sass-load)
+(add-hook 'scss-mode-hook 'flymake-sass-load)
 (setq ruby-deep-indent-paren nil)
 
+(setq scss-compile-at-save nil)

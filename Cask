@@ -27,6 +27,7 @@
 (depends-on "haml-mode")
 (depends-on "flymake-haml")
 (depends-on "sass-mode")
+(depends-on "scss-mode")
 (depends-on "flymake-sass")
 
 (depends-on "python-mode")
