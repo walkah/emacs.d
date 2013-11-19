@@ -40,4 +40,7 @@
 (depends-on "flymake-php")
 (depends-on "geben")
 
+(depends-on "go-mode")
+(depends-on "flymake-go")
+
 (depends-on "feature-mode")
