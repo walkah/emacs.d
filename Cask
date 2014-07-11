@@ -43,4 +43,9 @@
 (depends-on "go-mode")
 (depends-on "flymake-go")
 
+(depends-on "rust-mode")
+(depends-on "flymake-rust")
+
+(depends-on "swift-mode")
+
 (depends-on "feature-mode")
