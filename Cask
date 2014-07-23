@@ -6,6 +6,7 @@
 (depends-on "magit")
 (depends-on "color-theme-solarized")
 (depends-on "textmate")
+(depends-on "toggle-quotes")
 
 (depends-on "markdown-mode")
 (depends-on "yasnippet")

@@ -12,6 +12,10 @@
 (ac-config-default)
 (global-auto-complete-mode 1)
 
+; toggle-quotes
+(require 'toggle-quotes)
+(global-set-key (kbd "C-'") 'toggle-quotes)
+
 ; markdown
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
