@@ -22,3 +22,5 @@
 (setq-default indent-tabs-mode nil)
 (setq mouse-yank-at-point t)
 (set-scroll-bar-mode 'right)
+
+(electric-pair-mode 1)
