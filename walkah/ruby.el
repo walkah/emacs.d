@@ -10,8 +10,6 @@
 
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
-(require 'rinari)
-
 (add-hook 'haml-mode-hook 'flymake-haml-load)
 (add-hook 'sass-mode-hook 'flymake-sass-load)
 (add-hook 'scss-mode-hook 'flymake-sass-load)

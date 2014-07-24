@@ -25,7 +25,6 @@
 (depends-on "ruby-mode")
 (depends-on "flymake-ruby")
 (depends-on "rvm")
-(depends-on "rinari")
 (depends-on "yaml-mode")
 (depends-on "haml-mode")
 (depends-on "flymake-haml")
@@ -36,7 +35,6 @@
 (depends-on "python-mode")
 (depends-on "virtualenv")
 (depends-on "flymake-python-pyflakes")
-(depends-on "pony-mode")
 (depends-on "jinja2-mode")
 
 (depends-on "php-mode")

@@ -8,7 +8,6 @@
 
 ; auto-complete
 (require 'auto-complete)
-;(add-to-list 'ac-dictionary-directories (concat ac-directory "ac-dict"))
 (require 'auto-complete-config)
 (ac-config-default)
 (global-auto-complete-mode 1)
@@ -19,6 +18,7 @@
 
 ; markdown
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+(add-hook 'markdown-mode-hook 'flyspell-mode)
 
 ; yasnippet
 (require 'yasnippet)
@@ -32,11 +32,6 @@
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
-; ispell
-(setq ispell-program-name "aspell")
-(setq ispell-list-command "list")
-(setq ispell-extra-args '("--sug-mode=ultra"))
-
 ; yaml
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
@@ -48,10 +43,7 @@
 (require 'flymake)
 (setq flymake-gui-warnings-enabled nil)
 
-(autoload 'geben "geben" "PHP Debugger on Emacs" t)
-
 ; puppet mode
-(autoload 'puppet-mode "puppet-mode" "Major mode for editing puppet manifests")
 (add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
 
 ; others
