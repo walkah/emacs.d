@@ -2,8 +2,10 @@
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
-; textmate
-(textmate-mode)
+; projectile
+(projectile-global-mode)
+(setq projectile-switch-project-action 'projectile-vc)
+(setq projectile-keymap-prefix (kbd "s-p"))
 
 ; auto-complete
 (require 'auto-complete)

@@ -5,7 +5,7 @@
 (depends-on "exec-path-from-shell")
 (depends-on "magit")
 (depends-on "color-theme-solarized")
-(depends-on "textmate")
+(depends-on "projectile")
 (depends-on "toggle-quotes")
 
 (depends-on "markdown-mode")
