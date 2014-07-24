@@ -34,6 +34,7 @@
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 ; drupal files
 (add-to-list 'auto-mode-alist '("\\.\\(inc\\|module\\|test\\|install\\|theme\\|engine\\|schema\\|profile\\)$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
 
 (defun walkah/php-mode-init ()
    "Set some buffer-local variables."
@@ -44,8 +45,6 @@
    (setq indent-tabs-mode nil)
    (setq truncate-lines t)
    (define-key c-mode-map "\C-m" 'newline-and-indent)
-
-;   (flymake-mode 1)
 
    ; code sniffer - to assure coding standards compliance
    (set (make-local-variable 'compile-command)

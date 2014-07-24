@@ -11,6 +11,8 @@
 (depends-on "markdown-mode")
 (depends-on "yasnippet")
 
+(depends-on "web-mode")
+
 (depends-on "puppet-mode")
 
 (depends-on "js3-mode")
