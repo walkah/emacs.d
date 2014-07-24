@@ -18,3 +18,5 @@
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier 'super)
 (setq ns-function-modifier 'hyper)
+
+(setq projectile-keymap-prefix (kbd "s-p"))
