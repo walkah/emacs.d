@@ -2,10 +2,6 @@
 
 ; library paths
 (add-to-list 'load-path "~/.emacs.d/")
-(add-to-list 'load-path "~/.emacs.d/vendor/")
-(with-temp-buffer
-  (cd "~/.emacs.d/vendor/")
-  (normal-top-level-add-subdirs-to-load-path))
 
 ; custom 
 (setq custom-file "~/.emacs.d/custom.el")
