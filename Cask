@@ -40,6 +40,7 @@
 (depends-on "jinja2-mode")
 
 (depends-on "php-mode")
+(depends-on "drupal-mode")
 (depends-on "flymake-php")
 (depends-on "geben")
 
