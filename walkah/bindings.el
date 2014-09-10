@@ -22,3 +22,5 @@
 (setq projectile-keymap-prefix (kbd "s-p"))
 
 (global-set-key "\C-cd" 'dash-at-point)
+
+(global-set-key (kbd "C-'") 'toggle-quotes)
