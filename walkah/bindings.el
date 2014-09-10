@@ -20,3 +20,5 @@
 (setq ns-function-modifier 'hyper)
 
 (setq projectile-keymap-prefix (kbd "s-p"))
+
+(global-set-key "\C-cd" 'dash-at-point)

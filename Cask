@@ -7,6 +7,7 @@
 (depends-on "color-theme-solarized")
 (depends-on "projectile")
 (depends-on "toggle-quotes")
+(depends-on "dash-at-point")
 
 (depends-on "markdown-mode")
 (depends-on "yasnippet")
