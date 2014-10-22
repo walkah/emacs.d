@@ -1,7 +1,7 @@
 ;; walkah's init.el
 
 ; library paths
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ; custom 
 (setq custom-file "~/.emacs.d/custom.el")
