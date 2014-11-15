@@ -9,6 +9,7 @@
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 (add-hook 'haml-mode-hook 'flymake-haml-load)
 (add-hook 'sass-mode-hook 'flymake-sass-load)

@@ -26,6 +26,7 @@
 (depends-on "ruby-mode")
 (depends-on "flymake-ruby")
 (depends-on "rvm")
+(depends-on "projectile-rails")
 (depends-on "yaml-mode")
 (depends-on "haml-mode")
 (depends-on "flymake-haml")
