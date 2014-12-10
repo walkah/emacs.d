@@ -2,6 +2,10 @@
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
+; magit
+(require 'magit)
+(setq magit-diff-use-overlays nil)
+
 ; projectile
 (projectile-global-mode)
 (setq projectile-switch-project-action 'projectile-vc)
@@ -22,10 +26,6 @@
 ; yasnippet
 (require 'yasnippet)
 (yas/global-mode 1)
-
-; magit
-(setq magit-diff-use-overlays nil)
-(autoload 'magit-status "magit" nil t)
 
 ; uniquify
 (require 'uniquify)
