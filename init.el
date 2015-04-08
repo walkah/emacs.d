@@ -8,7 +8,7 @@
 (when (file-exists-p custom-file) (load custom-file))
 
 ; cask
-(require 'cask "~/.cask/cask.el")
+(require 'cask)
 (cask-initialize)
 
 (load "walkah/global")
